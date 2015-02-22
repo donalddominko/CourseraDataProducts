@@ -17,7 +17,16 @@
                                     "Select the car speed:", 
                                     min = 4,
                                     max = 25, 
-                                    value = 15)
+                                    value = 15),
+                        
+                        # Instructions
+                        h2("Instructions"),
+                        p("This is a basic App based on data(cars) dataset in RStudio"),
+                        p("1. Use slider to choose the input speed. On the right you
+                                will get an average distance for that speed."),
+                        p("About: Due to the time constraint this is as very basic app 
+                                that demonstrates use of slider above. Move the slider and the
+                                server will return a new plot on your right.")
                 ),
                 
                 # Show a plot of the generated distribution

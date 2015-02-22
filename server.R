@@ -18,13 +18,13 @@
                                 #speed = 15
                                 # Ploting all the data
                                 plot(cars$speed, cars$dist, 
-                                     xlab="Speed", 
-                                     ylab="Distance",                                     
+                                     xlab="Speed (mph)", 
+                                     ylab="Distance (ft)",                                     
                                      col="lightblue",
-                                     main="Plot for 'cars' dataset",
+                                     main="Stoping Distance vs Speed",
                                      pch=19)
-                                text(10, 110, paste("          Speed : ", speed))
-                                text(10, 100, paste("Distance (mean) : ", 
+                                text(10, 110, paste("          Speed /mph : ", speed))
+                                text(10, 100, paste("Distance (mean) /ft : ", 
                                                     round(mean(cars$dist[cars$speed == speed]))
                                                    ))
                                                                                                 
